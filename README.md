@@ -1,4 +1,4 @@
-# AVR MFSK (Multi Frequency Shift Keying) modem transceiver
+# AVR MFSK (Multiple Frequency Shift Keying) modem transceiver
 
 Original project based on ATmega88/168
 
