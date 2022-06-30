@@ -89,3 +89,9 @@ _modem with a bluetooth module added_
 _toner method etched pcbs_
 
 <img src="images/modems lr.jpg" width="800">
+
+## Things to improve
+
+ - Sometimes data doesn't sync
+ - Sample tones more than one time and average them for better results in noisy audio
+ - Make a better pwm filtering circuit
