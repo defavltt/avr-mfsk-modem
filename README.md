@@ -20,6 +20,8 @@ Made specifically for radio use
 
  - 8-bit sinewave output for regular audio channels
 
+ - Suitable for keyboard-to-keyboard terminal operation
+
 ## Operation
 
 There are two modem modes: normal operation / configuration. They are toggled by pressing the button
@@ -49,3 +51,9 @@ Transmitting data/message is done by sending it by serial in normal operation mo
 Receiving data/message is only done in normal operation mode and retrieved from serial.
 
 LED stays constantly on while: catching a preamble, receiving data/message and transmitting data/message.
+
+## Hardware
+
+<img src="iso numbers blue.png" width="800">
+<img src="side numbers blue.png" width="800">
+
