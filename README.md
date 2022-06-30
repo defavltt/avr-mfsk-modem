@@ -54,6 +54,26 @@ LED stays constantly on while: catching a preamble, receiving data/message and t
 
 ## Hardware
 
-<img src="iso numbers blue.png" width="800">
-<img src="side numbers blue.png" width="800">
+<img src="images/board.png" width="800">
 
+<img src="images/iso numbers blue.png" width="800">
+
+<img src="images/side numbers blue.png" width="800">
+
+<img src="images/modem in action lr.jpg" width="800">
+
+_modem powered on with a battery and connected with a kenwood style cable_
+
+<img src="images/modem inside lr.jpg" width="800">
+
+_bare modem_
+
+<img src="images/bt modem inside lr.jpg" width="800">
+
+_modem with a bluetooth module added_
+
+<img src="images/pcbs lr.jpg" width="800">
+
+_toner method etched pcbs_
+
+<img src="images/modems lr.jpg" width="800">
