@@ -8,7 +8,7 @@ Made specifically for radio use
 
 ## Features
 
- - Serial configurable: base frequency, delta frequency and rate (~14 bits per second)
+ - Serial configurable: base frequency, frequency spacing and rate (~14 bits per second)
 
  - Repeated transmission of last data sent for performance testing
 
@@ -39,10 +39,10 @@ Configuring the parameters and enabling repeated transmission is done by going i
 
 Examples:
 ```
-88 > (01 01 10 00) - rtrans off, bf 2, fs 1, s 1
-89 > (01 01 10 01) - rtrans on,  bf 2, fs 1, s 1
+88 > (01 01 10 00) - rtrans off, bf 2, fs 1, r 1
+89 > (01 01 10 01) - rtrans on,  bf 2, fs 1, r 1
 
-152 > (10 01 10 00) - rtrans off, bf 2, fs 1, s 2
+152 > (10 01 10 00) - rtrans off, bf 2, fs 1, r 2
 ```
 
 While in configuration mode the LED shows audio input clipping. To set proper input level, a tone from a modem should be played into the input and the level adjusted to where the LED stops flickering. A solid light means too much signal is being fed.
@@ -52,7 +52,19 @@ Receiving data/message is only done in normal operation mode and retrieved from 
 
 LED stays constantly on while: catching a preamble, receiving data/message and transmitting data/message.
 
+<img src="images/spectrum.png" width="800">
+
+_spectral view of the transmission_
+
 ## Hardware
+
+The PCB design is made for a 28-pin ATmega, whether that's 88, 168, 328, is a personal choice.
+
+Using an ATmega328 is encouraged, since originally an ATmega88 is used, flash usage is at ~99%, that limits adding more features.
+
+There are pads left on the PCB for ISP programming and future use.
+
+This project uses [MiniCore](https://github.com/MCUdude/MiniCore). Also a 16Mhz crystal is used.
 
 <img src="images/board.png" width="800">
 
