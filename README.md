@@ -58,7 +58,7 @@ _spectral view of the transmission_
 
 ## Hardware
 
-The PCB design is made for a 28-pin ATmega, whether that's 88, 168, 328, is a personal choice.
+The PCB design is made for a 28-pin ATmega (QFN/MLF), whether that's 88, 168, 328, is a personal choice.
 
 Using an ATmega328 is encouraged, since originally an ATmega88 is used, flash usage is at ~99%, that limits adding more features.
 
