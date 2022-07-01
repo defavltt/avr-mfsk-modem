@@ -92,6 +92,22 @@ _toner method etched pcbs_
 
 <img src="images/modems lr.jpg" width="800">
 
+## Programming
+
+ - Download and install [MiniCore](https://github.com/MCUdude/MiniCore)
+ 
+ - Open code in IDE of choice
+ 
+ - Configure board settings
+ 
+   - Select your MCU and external 16Mhz clock
+   
+   - Leave the rest of the board settings by default
+   
+   - If want, you can enable bootloader and leave out a reset pin on the serial connector for future configuring of the key macros.
+   
+ - Flash via ISP programmer and it's done.
+
 ## Things to improve
 
  - Sometimes data doesn't sync
