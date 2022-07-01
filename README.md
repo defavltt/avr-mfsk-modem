@@ -58,13 +58,15 @@ _spectral view of the transmission_
 
 ## Hardware
 
-The PCB design is made for a 28-pin ATmega (QFN/MLF), whether that's 88, 168, 328, is a personal choice.
+The PCB design is made for a 28-pin ATmega (QFN/MLF), whether that's 88, 168, 328, is a personal choice. Single-sided with some jumper wires required, vias are only for ground connection to the bottom layer.
 
 Using an ATmega328 is encouraged, since originally an ATmega88 is used, flash usage is at ~99%, that limits adding more features.
 
 There are pads left on the PCB for ISP programming and future use.
 
 This project uses [MiniCore](https://github.com/MCUdude/MiniCore). Also a 16Mhz crystal is used.
+
+Files for a 3D printed case are included. Case is held together by running a soldering iron along the seam of the top panel and main body.
 
 <img src="images/board.png" width="800">
 
